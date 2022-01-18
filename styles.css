@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+ 
+*{
+
+  background:url(background1.jpg);
+  	padding:0;
+	margin:0;
+	
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+	background:url(background1.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+    
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    }
+p,li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin:  0 auto;
+}
+.lg-heading
+{
+    font-size: 5.5rem;
+}
+
+.md-heading{
+    
+}
+.bg-dark{
+    background-color: #263238;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em,0;
+    
+}
+.btn-primary{
+    background-color: white;
+    border-radius: 10em;
+    
+}
+.btn-primary:hover{
+    background-color: bisque;
+}
+.btn-secondary{
+    border: 2px solid chocolate;
+    border-radius: 1.5em;
+    color: chocolate;
+    background: white;
+}
+.btn-secondary:hover{
+    background-color: bisque;
+}
+.header{
+    height: 90vh;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('C:\Users\manis\OneDrive\Desktop\myproject\img\logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar{
+   
+    padding: 1rem;
+}
+ .navbar .nav-item  a{
+    color: white;
+}
+.navbar .logo{
+    float: left;
+    font-size: 3.5rem;
+}
+ .navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+}
+ .navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.navbar a:link,
+.navbar a:visited
+{
+    color: white;
+}
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-content{
+    position: absolute;
+    text-align: center;
+ 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,-3.59),rgba(0,0,0,-3.59));
+}
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-content p{
+    text-transform: uppercase;
+}
+.text-black{
+    color: black;
+}
+.text-light{
+    color: white;
+}
+.showcase{
+    color: black;
+    padding: 10rem;
+}
+.row{
+    height: 350px;
+    background: #fff;
+    box-shadow: 5px 5px 20px 0px #aaa;
+   
+   
+    
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width:50%; 
+   
+}
+.row .img-box{
+
+    height: 100%;
+}
+.row .text-box{
+
+   padding: 3em;
+}
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row::after
+{
+    content: '';
+    display:  block;
+    clear: both;
+}
+.features{
+    padding: 10rem 0;
+   
+    
+}
+.box-wrapper{
+    box-shadow: 5px 5px 20px rgba(102,102,102,0.5321);
+}
+.box{
+    width: 33.333333%;
+    float: left;
+    
+    padding: 2rem;
+   
+    text-align: center;
+}
+.box1, .box3{
+    background-color:black;
+    color: #fff;
+}
+.box2{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,69,9,1) 35%, rgba(0,212,255,1) 100%);
+    color: #fff;
+}
+.box-wrapper::after{
+    content: " ";
+        display: block;
+    clear: both;
+}
+.footer{
+    background: #263238;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 1rem;
+}
